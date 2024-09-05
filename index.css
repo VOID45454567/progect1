@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(87, 87, 87);
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: black;
+        padding-bottom: 15px;
+        margin-bottom: 70px;
+        a{
+            text-decoration: none;
+            color: white;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+    }
+    main{
+        .about{
+            margin-top: 50px;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 auto;
+            .aboutUs{
+                h1{
+                    font-size: 60px;
+                    width: 400px;
+                }
+                p{
+                    font-size: 20px;
+                    width: 400px;
+                }
+                img{
+                    background-color: aliceblue;
+                    width: 600px;
+                    height: 400px;
+                }
+            }
+        }
+        .actions{
+            margin: 0 auto;
+            margin-top: 40px;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .actionBlock{
+                img{
+                    
+                }
+            }
+        }
+    }
+}
